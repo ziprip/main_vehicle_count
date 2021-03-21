@@ -27,8 +27,8 @@ for i in col_frames:
 
 #######################################################################
 #Data Exploration
-# plot 13th frame
-i = 180
+# plot 20th frame
+i = 20
 
 for frame in [i, i+1]:
     plt.imshow(cv2.cvtColor(col_images[frame], cv2.COLOR_BGR2RGB))
