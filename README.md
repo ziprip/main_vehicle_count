@@ -4,7 +4,7 @@ It is a vehicle count model that takes an input of the path of the video file an
 # required packages
 os
 re
-cv2 # opencv library
+cv2 (opencv)
 numpy
 matplotlib
 
@@ -35,6 +35,9 @@ before you run this file, create a folder titled 'counted_frames' inside the fol
 
 output of the video is vehicle_detection.mp4 in the main folder.
 
+# bash file
+
+main.sh file can be used to run these steps.
 
 
 # reference
