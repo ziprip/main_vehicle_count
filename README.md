@@ -1,6 +1,12 @@
 # vehicle_count
 It is a vehicle count model that takes an input of the path of the video file and two coordinates (coordinates are used to create a line which in turn is used to count the vehicles crossing this line).
 
+# required packages
+os
+re
+cv2 # opencv library
+numpy
+matplotlib
 
 # change the resolution of the original video
 
@@ -28,6 +34,8 @@ the output of this file is a folder titled 'frames' and it will contain the all 
 before you run this file, create a folder titled 'counted_frames' inside the folder /main_vehicle_count/.
 
 output of the video is vehicle_detection.mp4 in the main folder.
+
+
 
 # reference
 
