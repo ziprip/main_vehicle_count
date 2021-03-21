@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
- 
+
+# path to the video in mp4 format 
 cap = cv2.VideoCapture('videos/your_video_here.mp4')
  
 fourcc = cv2.VideoWriter_fourcc(*'MP4V')
