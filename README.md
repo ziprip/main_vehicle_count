@@ -21,6 +21,14 @@ use this file to convert the video to individual frames.
 
 the output of this file is a folder titled 'frames' and it will contain the all the frames in .png format from the video.
 
+# counting vehicles model
+
+3_vehicle_count.py
+
+before you run this file, create a folder titled 'counted_frames' inside the folder /main_vehicle_count/.
+
+output of the video is vehicle_detection.mp4 in the main folder.
+
 # reference
 
 Based on the article published in analyticsvidhya.com by Prateek Joshi on April 21, 2020.
